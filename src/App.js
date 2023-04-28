@@ -9,7 +9,7 @@ import Nav from 'react-bootstrap/Nav';
 import { HomePage } from './components/homePage';
 import { ViewGrades } from './components/viewGrades';
 import { AddGrades } from './components/addGrades';
-import { Login } from './components/login';
+// import { Login } from './components/login';
 
 import {
   BrowserRouter as Router,
@@ -32,7 +32,7 @@ class App extends React.Component {
                 <Nav.Link href="/">Home</Nav.Link>
                 <Nav.Link href="/viewGrades">View Grades</Nav.Link>
                 <Nav.Link href="/addGrades">Add Grades</Nav.Link>
-                <Nav.Link href="/login">Login</Nav.Link>
+                {/* <Nav.Link href="/login">Login</Nav.Link> */}
 
               </Nav>
             </Container>
@@ -42,7 +42,7 @@ class App extends React.Component {
             <Route path='/viewGrades' element={<ViewGrades></ViewGrades>}></Route>
             <Route path='/addGrades' element={<AddGrades></AddGrades>}></Route>
             <Route path='/editStudents/:id' element={<EditStudents></EditStudents>}></Route>
-            <Route path='/login' element={<Login></Login>}></Route>
+            {/* <Route path='/login' element={<Login></Login>}></Route> */}
           </Routes>
           {/* used  for comments */}
         </div>
