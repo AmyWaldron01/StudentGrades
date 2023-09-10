@@ -1,3 +1,32 @@
+#  Project requirements
+My project is a web application for managing your students grades as a lecturer. The requirements of 
+the project include the ability to view all grades, add grades, and edit grades. The application allows 
+users to log in and out, with login credentials as username :“admin” password :“admin”. This ensures 
+you can only see the grades as the lecturer. The frontend of the application is built using React and 
+Bootstrap, while the backend is built using Node.js and MongoDB.
+The specific requirements of the project can be broken down into the following:
+-   View all grades: Users should be able to view a list of all the grades in the system. This 
+functionality is implemented in the ViewGrades component.
+-  Add grades: Users should be able to add new grades to the system. This functionality is 
+implemented in the AddGrades component.
+-  Edit grades: Users should be able to edit existing grades in the system. This functionality is 
+implemented in the EditStudents component.
+-  Login and authentication: Users can only login with the correct log in information. Which is 
+admin, admin. 
+5. CalculateGrade: The grades are calculated based on the total marks obtained by the student 
+in each assessment. The calculateGrade function takes the total marks obtained by the 
+student as an argument and uses a switch statement to determine the corresponding letter 
+grade based on the following ranges: A (90 or above), B (80-89), C (70-79), D (60-69), F (0-
+50). The function returns the letter grade, which is then displayed in the student's 
+information along with the percentage of marks obtained in each assessment. The overall 
+grade for the course is determined by adding up the percentages obtained in each 
+assessment, with assignments 1 and 2 each contributing 25% and the project contributing 
+50%.
+Overall, is robust and functional web application for managing grades. The frontend and backend are 
+both well-designed and implemented, and the project provides a good example of how to build a 
+full-stack web application using modern web development technologies.
+
+
 # Running the App
 
 - Open Cmd in Project Folder
